@@ -14,4 +14,8 @@ this is my boilerplate files to start every website project.
 * [jquery.lazyload](http://www.appelsiini.net/projects/lazyload)
 
 All the dependencies are managed by [Bower](http://bower.io)
+  
+any suggestion will be well received! hit me at me (at) hherrerag.com  
+CHEERS!
+
 
