@@ -1,0 +1,16 @@
+{
+  "name": "my_website_boilerplate",
+  "version": "0.1.0",
+  "authors": [
+    "Horacio Herrera <hherrerag@me.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
