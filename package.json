@@ -1,11 +1,35 @@
 {
   "name": "my_website_boilerplate",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "My Website Boilerplate Files",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Horacio Herrera (hherrerag.com)",
-  "license": "ISC"
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hhg2288/HHG_website_Boilerplate"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "grunt": "0.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-haml": "~0.1.1",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-open": "0.2.0",
+    "grunt-contrib-connect": "0.3.0",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-uncss": "~0.1.6",
+    "grunt-contrib-csslint": "0.1.2",
+    "grunt-contrib-ftpush": "~0.3.2"
+  }
 }
