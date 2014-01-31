@@ -10,3 +10,5 @@
 /.sass-cache/
 
 /source/components/
+
+/dev/.DS_Store
