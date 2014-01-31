@@ -6,3 +6,7 @@
 
 /.grunt/ftpush/build.json
 /.sass-cache/57003fa1ecd0512b774e563fb113ec14f2c6114f/main.scssc
+
+/.sass-cache/
+
+/source/components/

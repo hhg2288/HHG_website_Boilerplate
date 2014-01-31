@@ -12,5 +12,11 @@
     "source/components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "foundation": "~5.0.3",
+    "jquery": "~2.1.0",
+    "jquery-waypoints": "~2.0.4",
+    "jQuery-One-Page-Nav": "~2.2.0"
+  }
 }
