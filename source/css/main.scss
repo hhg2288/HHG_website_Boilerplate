@@ -1,0 +1,34 @@
+/*
+-------------------
+MAIN SASS FILE
+author: Horacio Herrera
+-------------------
+*/
+
+
+//components
+///////////////////
+
+//normalize
+@import "../components/foundation/scss/normalize";
+
+//foundation
+@import "../components/foundation/scss/foundation.scss";
+
+//variables
+@import "base/_variables.scss";
+
+//mixins
+@import "base/_mixins.scss";
+
+// SMACSS FILES
+///////////////////
+
+@import "base/_base.scss";
+@import "layout/_layout.scss";
+@import "module/_module.scss";
+@import "state/_state.scss";
+@import "theme/_theme1.scss";
+
+//this file should be empty!!!
+@import "_shame.scss";

@@ -82,14 +82,14 @@ module.exports = function(grunt) {
 
     watch: {
       html: {
-        files: ['<%= srcFolder %>/index.haml'],
+        files: '**/*.haml',
         tasks: ['haml:dev'],
         options: {
           livereload: true,
         }
       },
       css: {
-        files: ['<%= devFolder %>/stylesheets/main.css', '<%= srcFolder %>/stylesheets/main.scss'],
+        files: '**/*.scss',
         tasks: ['sass:dev'],
         options: {
           livereload: true,
