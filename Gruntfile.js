@@ -100,12 +100,12 @@ module.exports = function(grunt) {
     ftpush: {
       build: {
         auth: {
-          host: 's123384.gridserver.com',
+          host: '',
           port: '21',
           authKey: 'key1'
         },
         src: '<%= devFolder %>',
-        dest: 'domains/hherrerag.com/html/grunt',
+        dest: '',
         exclusions: [
           '<%= devFolder %>/components/',
           '<%= buildFolder %>/**/.DS_Store',
