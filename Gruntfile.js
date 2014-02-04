@@ -29,6 +29,21 @@ module.exports = function(grunt) {
       }
     },
 
+    copy: {
+      dev: {
+        files: [
+          // includes files within path
+          {expand: true, flatten: true, src: ['<%= srcFolder %>/assets/**'], dest: '<%= devFolder %>/assets/', filter: 'isFile'}
+        ]
+      },
+      prod: {
+        files: [
+          // includes files within path
+          {expand: true, flatten: true, src: ['<%= srcFolder %>/assets/**'], dest: '<%= buildFolder %>/assets/', filter: 'isFile'}
+        ]
+      }
+    },
+
     open: {
       server: {
         path: 'http://localhost:<%= connect.dev.options.port %>'
@@ -91,6 +106,13 @@ module.exports = function(grunt) {
       css: {
         files: '**/*.scss',
         tasks: ['sass:dev'],
+        options: {
+          livereload: true,
+        }
+      },
+      assets: {
+        files: ['**/*.jpg', '**/*.png'],
+        tasks: ['copy:dev'],
         options: {
           livereload: true,
         }
